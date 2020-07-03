@@ -23,9 +23,32 @@
   }
 
   .news-layout img {
-    width: 75%;
+    width: 70%;
+    margin-bottom: 20px;
   }
 
+  .layout-left {
+  	width: 50%;
+  	padding: 0;
+  }
+
+  .layout-left a {
+  	float: left;
+  	margin-bottom: 20px;
+  }
+
+  .art-button {
+  	float: left;
+  	margin-left: 20px;
+  }
+
+  .layout-right {
+  	width: 50%;
+  	padding: 0;
+  }
+   .layout-right a {
+   	margin-bottom: 20px;
+   }
 
   .comments {
     width: 100%;
@@ -38,6 +61,10 @@
     position: absolute;
     left: 28px;
     width: 157px;
+  }
+
+  .next-btn {
+  	margin-bottom: 60px;
   }
  
   input {
@@ -61,6 +88,7 @@
 
   .btn-start {
     width: 50%;
+    padding: 20px;
   }
 
   /* Tambahkan CSS untuk header-right */
@@ -91,9 +119,16 @@
     flex-direction: column;
   }
   .content {
-    margin: 0 auto;
+    width: 100%;
   }
 
+  .txt-content {
+  	display: inline;
+  }
+
+  .btn {
+  	width: 100%;
+  }
 
   .news-layout {
     margin: 0 auto;
@@ -107,6 +142,15 @@
     float: left;
   }
 
+  .layout-left {
+  	width: 100%;
+  	padding: 0;
+  }
+
+  .layout-right {
+  	width: 100%;
+  	padding: 0;
+  }
 
   .comments {
     width: 100%;
@@ -120,6 +164,10 @@
     left: 26px;
     width: 157px;
   }
+
+  .next-btn {
+  	margin-bottom: 60px;
+  }
  
   input {
     padding: 10px 20px 10px 20px;
@@ -127,5 +175,8 @@
  
   textarea {
     padding: 10px 20px 10px 20px;
+  }
+  legend {
+  	font-size: 20px;
   }
 }
